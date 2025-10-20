@@ -65,8 +65,9 @@
         <div class="card h-100 shadow-sm">
           <img class="card-img-top review-cover" src="https://picsum.photos/seed/food{{ $i }}/600/400" alt="cover">
           <div class="card-body d-flex flex-column">
-            <h5 class="card-title mb-1">ร้านอร่อย #{{ $i }}</h5>
-            <p class="text-muted small mb-2">สยาม • อาหารไทย • ฿฿</p>
+            <h5 class="card-title mb-1">{{ $i }}# เมนู</h5>
+            <p class="text-muted small mb-2">ร้านเบอร์
+            </p>
             <p class="card-text flex-grow-1">รสชาติจัดจ้าน กลมกล่อม บรรยากาศดี เหมาะนั่งยาว ๆ</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="text-warning">
